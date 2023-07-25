@@ -113,6 +113,7 @@ var mainCfg = MainConfig{
 	VariablesHashBucketSize: 256,
 	VariablesHashMaxSize:    1024,
 	TLSPassthrough:          true,
+	TLSPassthroughPort:      8443,
 }
 
 func TestIngressForNGINXPlus(t *testing.T) {
